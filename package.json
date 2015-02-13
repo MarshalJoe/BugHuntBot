@@ -1,0 +1,16 @@
+{
+  "name": "BugHuntBot",
+  "version": "0.0.0",
+  "description": "A bot for scraping /r/xss and posting to twitter",
+  "main": "index.js",
+  "private":true,
+  "scripts": {
+    "test": "node index.js",
+    "start": "node.io index.js "
+  },
+  "author": "Charlie Marshall",
+  "license": "MIT",
+  "dependencies": {
+    "node.io": "^0.5.1"
+  }
+}
