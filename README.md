@@ -1,1 +1,1 @@
-Twitterbot was inspired by the XSS scraping script in Peter Kim's **The Hacker's Playbook: A Practical Guide to Penetration Testing**
+@BugHuntBot was inspired by the XSS scraping script in Peter Kim's **The Hacker's Playbook: A Practical Guide to Penetration Testing**
