@@ -5,7 +5,7 @@ var schedule = require('node-schedule');
 
 var rule = new schedule.RecurrenceRule();
 rule.dayOfWeek = [new schedule.Range(0, 6)];
-rule.minute = 10;
+rule.minute = 13;
 
 var j = schedule.scheduleJob({hour: 22, minute: 30, dayOfWeek: 0}, function(){
     PythonShell.run('reddit.py', function (err, results) {
